@@ -55,4 +55,4 @@ class Table extends Component {
   }
 }
 
-export default Table; //exporting a component make it reusable and this is the beauty of react
+export default Table; 

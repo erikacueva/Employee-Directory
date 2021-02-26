@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header'; 
 // import EmployeeInfo from "./components/EmployeeInfo";
-import Table from ".components/Table";
+// import Table from ".components/Table";
 
 function App() {
 
   return (
     <>
     <Header/>
-    <Table/>
+    {/* <Table/> */}
     <div className="container">
       test
     </div>

@@ -1,28 +1,13 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Button from "../Button";
 
-const Header = ({ title }) => {
-  const onClick = () => {
-    console.log("click");
-  };
-  return (
+class Header extends React.Component {
+  render() {
+    return (
       <>
-    <header className="header">
-      <h1>{title}</h1>
-    </header>
-    
-
-    </>
-  );
-};
-
-Header.defaultProps = {
-  title: "Employee Tracker",
-};
-
-Header.propTypes = {
-  title: PropTypes.string,
-};
+        <h1>This is the header</h1>
+      </>
+    );
+  }
+}
 
 export default Header;
